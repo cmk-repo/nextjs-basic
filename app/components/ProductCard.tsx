@@ -1,12 +1,17 @@
 import React from 'react'
-import ButtonClinet from './buttonClinet'
+import ButtonClinet from './ButtonClinet'
+import styles from './ProductCard.module.css'
+
+
 
 const ProductCard = () => {
   return (
-    <div><h1>ProductCard</h1>
+    <>
+    <h4>ProductCard</h4>
+   <div >
     <ButtonClinet />
     </div>
-
+    </>
   )
 }
 
